@@ -22,8 +22,7 @@ Until now there are two sequences available, both based on the snapshot GRE CEST
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
 
 Standard protocols are shared here as **.txt**, **.pdf**, **.pro** and **.exar**.
-Until now, the **SiemensWIP** supports **APTw-CEST**, and **low-power MP-CEST** protocols.
-The **AGZaissC2P** supports **APTw-CEST**, **low-power MP-CEST**, and **dynamicGlucoCEST/SL**
+The **CestineerC2P** supports **APTw-CEST**, **low-power MP-CEST**, and **dynamicGlucoCEST/SL**
 
 ### VE11C protocols ###
  - **CestineerC2P**: [APTw](link), [MP](link), [DGE](link)
