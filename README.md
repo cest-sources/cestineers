@@ -38,9 +38,9 @@ Standard protocols are shared here as **.pdf**, **.pro**
 The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
 ### 3T protocols ###
- - **C2P_MPI04**:APTw, lowB1-MP, WASABI
- - **WIP_816b**: APTw
- - **WIP_816c**: APTw
+ - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI
+ - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw
+ - **[WIP_816c](prot/3T/snapshot_GRE/)**: APTw
  - **WIP_SPACE**: - no protocols yet
 
 ### 7T protocols ###
