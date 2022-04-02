@@ -14,17 +14,20 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 
 ## (i) CEST MRI sequences ##
 
-based on the snapshot GRE CEST approach:
-1. a CEST WIP sequence from Siemens (P. Liebig) „WIP_816b“ and „WIP_816c“ (for VE11/12)
-2. a C2P sequence provided by M. Zaiss „C2P_MPI04“ (for VE11/12)
+**snapshot GRE CEST**:
+1. **WIP_816b** a CEST WIP sequence from Siemens (P. Liebig) (for VE11)
+2. **WIP_816c** a CEST WIP sequence from Siemens (P. Liebig) (for VE11/12)
+3. **C2P_MPI04** a C2P sequence provided by M. Zaiss (for VE11/12)
+4. **C2P_pulseqCESThybrid_gre** a C2P sequence provided by M. Zaiss (for VE11/12)
+5. **C2P_pulseqCESThybrid_minifl** a C2P sequence and code based on the miniflash provided by M. Zaiss (for VE11/12)
 
-based on the snapshot EPI CEST approach:
+**snapshot EPI CEST**:
 1. a C2P sequence by T. Stöcker (for VE12)
 
-based on the SPACE approach:
+**SPACE CEST:
 1. a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11)
 
-To get the sequences you need to contact Siemens and the corresponding developer.
+To get the sequences you need to contact Siemens and/or the corresponding developer.
    
 ## (ii) CEST MRI protocols ##
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
@@ -66,12 +69,15 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  
  2. an toolkit integrated in the open source toolkit MITK is provided here: [MITK](MITK)
  
- 3. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from **Cestineers**.
+ 4. a powerful post processing is provided by OLEA medical.
+ 
+ 5. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
  If this is not given, it is recommended to wait for the next WIP release of Siemens.
+ 
+ 
    
-   
- # About
+# About
 **Cestineers** is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
 
  To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
