@@ -1,6 +1,7 @@
 # *cestineers*
 **Resources for people doing CEST MRI on a Siemens platform**
-Welcome to cestineers, a site for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
+* * *
+Welcome to *cestineers*, a site for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
 
 The purpose if this repository is
 
@@ -15,17 +16,17 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 ## (i) CEST MRI sequences ##
 
 **snapshot GRE CEST**:
-1. **WIP_816b** a CEST WIP sequence from Siemens (P. Liebig) (for VE11)
-2. **WIP_816c** a CEST WIP sequence from Siemens (P. Liebig) (for VE11/12)
-3. **C2P_MPI04** a C2P sequence provided by M. Zaiss (for VE11/12)
-4. **C2P_pulseqCESThybrid_gre** a C2P sequence provided by M. Zaiss (for VE11/12)
-5. **C2P_pulseqCESThybrid_minifl** a C2P sequence and code based on the miniflash provided by M. Zaiss (for VE11/12)
+ - **WIP_816b** a CEST WIP sequence from Siemens (P. Liebig) (for VE11)
+ - **WIP_816c** a CEST WIP sequence from Siemens (P. Liebig) (for VE11/12)
+ - **C2P_MPI04** a C2P sequence provided by M. Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_gre** a C2P sequence provided by M. Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_minifl** a C2P sequence and code based on the miniflash provided by M. Zaiss (for VE11/12)
 
 **snapshot EPI CEST**:
-1. a C2P sequence by T. Stöcker (for VE12)
+ - a C2P sequence by T. Stöcker (for VE12)
 
-**SPACE CEST:
-1. a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11)
+**SPACE/TSE CEST**:
+ - a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11)
 
 To get the sequences you need to contact Siemens and/or the corresponding developer.
    
@@ -47,7 +48,7 @@ The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**
  - **[C2P_MPI04](/prot/7T/snapshot_GRE/)**:lowB1-MP
  - **WIP_816b**: - no protocols yet
  - **WIP_816c**: - no protocols yet
- - **WIP_SPACE**: - no protocols yet
+ - **WIP_SPACE/TSE**: - no protocols yet
 
 ## (iii) CEST post processing ##
 The important evaluation steps for CEST are:
