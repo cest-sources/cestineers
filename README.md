@@ -38,16 +38,16 @@ Standard protocols are shared here as **.pdf**, **.pro**
 The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
 ### 3T protocols ###
- - **C2P_MPI04**:[APTw](link), [MP](link), [DGE](link)
- - **WIP_816b**: [APTw](link)
- - **WIP_816c**: [APTw](link)
- - **WIP_SPACE**: [APTw](link)
+ - **C2P_MPI04**:APTw, lowB1-MP, WASABI
+ - **WIP_816b**: APTw
+ - **WIP_816c**: APTw
+ - **WIP_SPACE**: - no protocols yet
 
 ### 7T protocols ###
- - **C2P_MPI04**:[APTw](link), [MP](link), [DGE](link)
- - **WIP_816b**: [APTw](link)
- - **WIP_816c**: [APTw](link)
- - **WIP_SPACE**: [APTw](link)
+ - **C2P_MPI04**:lowB1-MP
+ - **WIP_816b**: - no protocols yet
+ - **WIP_816c**: - no protocols yet
+ - **WIP_SPACE**: - no protocols yet
 
 ## (iii) CEST post processing ##
 The important evaluation steps for CEST are:
