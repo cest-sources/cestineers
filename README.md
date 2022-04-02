@@ -44,7 +44,7 @@ The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**
  - **WIP_SPACE**: - no protocols yet
 
 ### 7T protocols ###
- - **C2P_MPI04**:lowB1-MP
+ - **[C2P_MPI04](/prot/7T/snapshot_GRE/)**:lowB1-MP
  - **WIP_816b**: - no protocols yet
  - **WIP_816c**: - no protocols yet
  - **WIP_SPACE**: - no protocols yet
