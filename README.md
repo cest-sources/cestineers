@@ -15,14 +15,14 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 ## (i) CEST MRI sequences ##
 
 based on the snapshot GRE CEST approach:
-1. a CEST WIP sequence from Siemens (P. Liebig) „WIP_816b“ and „WIP_816c“ (for VE11C, VE11E, VE11P, VE12U)
-2. a C2P sequence provided by M. Zaiss „C2P_MPI04“ (for VE11C, VE11E, VE11P, VE12U)
+1. a CEST WIP sequence from Siemens (P. Liebig) „WIP_816b“ and „WIP_816c“ (for VE11/12)
+2. a C2P sequence provided by M. Zaiss „C2P_MPI04“ (for VE11/12)
 
 based on the snapshot EPI CEST approach:
-1. a C2P sequence by T. Stöcker (for VE12U)
+1. a C2P sequence by T. Stöcker (for VE12)
 
 based on the SPACE approach:
-1. a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11C, VE11E, VE11P, VE12U)
+1. a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11)
 
 To get the sequences you need to contact Siemens and the corresponding developer.
    
