@@ -1,10 +1,6 @@
 # cestineers
 A resource website for people doing CEST MRI on a Siemens platform
 
-
-![](https://avatars2.githubusercontent.com/u/8361321?s=400&u=79c17d104519765c37d401a1eb426aad31ca7883&v=4?raw=true)
-
-
 The purpose if this repository is
 
 (i) to inform what CEST MR sequences are available via C2P, and to provide binaries.
