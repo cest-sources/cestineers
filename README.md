@@ -1,42 +1,52 @@
 # cestineers
-A resource website for people doing CEST MRI on a Siemens platform
+**A resource website for people doing CEST MRI on a Siemens platform**
+Welcome to cestineers, a site for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
 
 The purpose if this repository is
 
-(i) to inform what CEST MR sequences are available via C2P, and to provide binaries.
+(i) to inform what **CEST MRI sequences** are available as WIP or via C2P
 
-(ii) to share tested CEST MRI protocols
+(ii) to share tested **CEST MRI protocols**
 
-(iii) to give guidance and documentation about postprocessing starting from output of Siemens sequences.
+(iii) to give guidance and documentation about **CEST postprocessing** starting from output of Siemens sequences.
 
-## (i) MR sequences ##
+Please, never run any CEST sequences if you dont have all of the above: sequence, protocol and matching evaluation before you start measuring. Otherwise bad things will happen.
 
-Until now there are two sequences available, both based on the snapshot GRE CEST approach:
- - a C2P sequence provided by Cestineers
-   - available via Cestineers for the Software versions **VE11C,** **VE11E,**, **VE11P,** **VE12U**
-   - the download links for Cestineers sequences are stored here, yet the passwords are only provided after C2P process is complete.
- - a CEST WIP sequence from Siemens
-   - for details on this sequence we refer to Siemens Healthineers
+## (i) CEST MRI sequences ##
+
+based on the snapshot GRE CEST approach:
+1. a CEST WIP sequence from Siemens (P. Liebig) „WIP_816b“ and „WIP_816c“ (for VE11C, VE11E, VE11P, VE12U)
+2. a C2P sequence provided by M. Zaiss „C2P_MPI04“ (for VE11C, VE11E, VE11P, VE12U)
+
+based on the snapshot EPI CEST approach:
+1. a C2P sequence by T. Stöcker (for VE12U)
+
+based on the SPACE approach:
+1. a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11C, VE11E, VE11P, VE12U)
+
+To get the sequences you need to contact Siemens and the corresponding developer.
    
-## (ii) CEST MR protocols ##
+## (ii) CEST MRI protocols ##
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
 
-Standard protocols are shared here as **.txt**, **.pdf**, **.pro** and **.exar**.
-The **CestineerC2P** supports **APTw-CEST**, **low-power MP-CEST**, and **dynamicGlucoCEST/SL**
+The best and standardized definition of CEST preparation is given by the Pulseq-CEST project, which is the source of all defined preparations.
 
-### VE11C protocols ###
- - **CestineerC2P**: [APTw](link), [MP](link), [DGE](link)
+Standard protocols are shared here as **.pdf**, **.pro** 
+The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
-### VE11E protocols ###
- - **CestineerC2P**: [APTw](link), [MP](link), [DGE](link)
- 
-### VE12U ###
- - **CestineerC2P**: [APTw](link), [MP](link), [DGE](link)
+### 3T protocols ###
+ - **C2P_MPI04**:[APTw](link), [MP](link), [DGE](link)
+ - **WIP_816b**: [APTw](link)
+ - **WIP_816c**: [APTw](link)
+ - **WIP_SPACE**: [APTw](link)
 
+### 7T protocols ###
+ - **C2P_MPI04**:[APTw](link), [MP](link), [DGE](link)
+ - **WIP_816b**: [APTw](link)
+ - **WIP_816c**: [APTw](link)
+ - **WIP_SPACE**: [APTw](link)
 
 ## (iii) CEST post processing ##
-The **CestineerC2P** sequence has no online post-processing until now.
-
 The important evaluation steps for CEST are:
  - motion correction
  - normalization with unsaturated scan
@@ -45,9 +55,13 @@ The important evaluation steps for CEST are:
  - Contrasts generation (MTRasym, Lorentzian fitting)
  
  If one of these steps is not handled with full care, CEST results are unreliable.
- 
- Available Evaluation tools:
- 
+ The important evaluation steps for CEST are:
+
+The CEST WIPs have some basic online evaluation, but only for  basic asymmetry of APTw protocols.
+C2P CEST sequences do not have online evaluation and an offline postprocessing is needed.
+
+**Available Evaluation tools:**
+
  1. some basic evaluation is provided on [www.cest-sources.org](www.cest-sources.org).
  
  2. an toolkit integrated in the open source toolkit MITK is provided here: [MITK](MITK)
@@ -56,19 +70,10 @@ The important evaluation steps for CEST are:
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
  If this is not given, it is recommended to wait for the next WIP release of Siemens.
    
+   
  # About
-**Cestineers** is an initiative by Moritz Zaiss (FAU), Steffen Görke (DKFZ), Kai Herz (MPI Tübingen), and open for everyone to join. 
+**Cestineers** is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
 
- To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb
+ To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
  
  
- 
- 
-
-
-
-
-
-
-
-
