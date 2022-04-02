@@ -1,5 +1,5 @@
-# cestineers
-**A resource website for people doing CEST MRI on a Siemens platform**
+# *cestineers*
+**Resources for people doing CEST MRI on a Siemens platform**
 Welcome to cestineers, a site for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
 
 The purpose if this repository is
@@ -78,7 +78,7 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  
    
 # About
-**Cestineers** is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
+*cestineers* is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
 
  To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
  
