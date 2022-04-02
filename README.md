@@ -18,9 +18,9 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 **snapshot GRE CEST**:
  - **WIP_816b** a CEST WIP sequence from Siemens (P. Liebig) (for VE11)
  - **WIP_816c** a CEST WIP sequence from Siemens (P. Liebig) (for VE11/12)
- - **C2P_MPI04** a C2P sequence provided by M. Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_gre** a C2P sequence provided by M. Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_minifl** a C2P sequence and code based on the miniflash provided by M. Zaiss (for VE11/12)
+ - **C2P_MPI04** a C2P sequence by M. Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_gre** a C2P sequence by M. Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_minifl** a C2P sequence/code based on miniflash by M. Zaiss (for VE11/12)
 
 **snapshot EPI CEST**:
  - a C2P sequence by T. Stöcker (for VE12)
