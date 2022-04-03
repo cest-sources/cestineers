@@ -11,6 +11,8 @@ The purpose if this repository is
 
 (iii) to give guidance and documentation about **CEST postprocessing** starting from output of Siemens sequences.
 
+[(iv])] - as a longh term goal - to also share data acquired with the same protocols.
+
 Please, never run any CEST sequences if you dont have all of the above: sequence, protocol and matching evaluation before you start measuring. Otherwise bad things will happen.
 
 ## (i) CEST MRI sequences ##
@@ -53,13 +55,13 @@ The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**
 ## (iii) CEST post processing ##
 The important evaluation steps for CEST are:
  - motion correction
- - normalization with unsaturated scan
+ - normalization by unsaturated scan
  - B0 and B1 correction
- - denoising
- - Contrasts generation (MTRasym, Lorentzian fitting)
+ - spectral smoothing/denoising
+ - contrast generation (MTRasym, Lorentzian fitting)
+ - advanced contrast generation (relaxation compensation, fluid supression, ...)
  
  If one of these steps is not handled with full care, CEST results are unreliable.
- The important evaluation steps for CEST are:
 
 The CEST WIPs have some basic online evaluation, but only for  basic asymmetry of APTw protocols.
 C2P CEST sequences do not have online evaluation and an offline postprocessing is needed.
@@ -74,7 +76,7 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  
  5. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
- If this is not given, it is recommended to wait for the next WIP release of Siemens.
+ If this is not given, it is recommended to wait for new releases of more advanced sequences.
  
  
    
