@@ -70,7 +70,7 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
 
  1. some basic evaluation is provided on [www.cest-sources.org](www.cest-sources.org).
  
- 2. a toolkit integrated in the open source toolkit MITK is provided here: [MITK](MITK)
+ 2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
  
  4. a powerful post processing is provided by OLEA medical.
  
