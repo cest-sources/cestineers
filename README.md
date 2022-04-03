@@ -44,12 +44,14 @@ The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**
  - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI
  - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw
  - **[WIP_816c](prot/3T/snapshot_GRE/)**: APTw
+ - **[C2P_dzne_EPI3D](prot/3T/snapshot_EPI3D/)**: lowB1-MP
  - **WIP_SPACE**: - no protocols yet
 
 ### 7T protocols ###
  - **[C2P_MPI04](/prot/7T/snapshot_GRE/)**:lowB1-MP
  - **WIP_816b**: - no protocols yet
  - **WIP_816c**: - no protocols yet
+ - **[C2P_dzne_EPI3D](prot/7T/snapshot_EPI3D/)**: lowB1-MP
  - **WIP_SPACE/TSE**: - no protocols yet
 
 ## (iii) CEST post processing ##
