@@ -1,7 +1,7 @@
 # *cestineers*
 **Resources for people doing CEST MRI on a Siemens platform**
 * * *
-Welcome to *cestineers*, a site for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
+Welcome to *cestineers*, a repository for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
 
 The purpose if this repository is
 
