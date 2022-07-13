@@ -79,7 +79,11 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
  If this is not given, it is recommended to wait for new releases of more advanced sequences.
  
- 
+# Publications and references
+
+The snapshot GRE CEST APTw protocol is described here: https://arxiv.org/abs/2207.00261
+
+
    
 # About
 *cestineers* is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
