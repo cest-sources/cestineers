@@ -20,8 +20,6 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
  - **WIP_816b** a CEST WIP sequence from Siemens(for VE11)
  - **WIP_816c** a CEST WIP sequence from Siemens (for VE11/12)
  - **C2P_MPI04** a C2P sequence by AG Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_gre** a C2P sequence by AG Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_minifl** a C2P sequence/code based on miniflash by AG Zaiss (for VE11/12)
 
 **snapshot EPI CEST**:
  - a C2P sequence by AG Stöcker (for VE12)
@@ -42,8 +40,8 @@ Standard protocols are shared here as **.pdf**, **.pro**
 The different protocols **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
 ### 3T protocols ###
- - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI
- - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw
+ - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI, T1satrec
+ - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw, lowB1-MP, WASABI
  - **[WIP_816c](prot/3T/snapshot_GRE/)**: APTw
  - **[C2P_dzne_EPI3D](prot/3T/snapshot_EPI3D/)**: lowB1-MP
  - **WIP_SPACE**: - no protocols yet
@@ -60,9 +58,9 @@ The important evaluation steps for CEST are:
  - motion correction
  - normalization by unsaturated scan
  - B0 and B1 correction
- - spectral smoothing/denoising
+ - spectral/spatial smoothing/denoising
  - contrast generation (MTRasym, Lorentzian fitting)
- - advanced contrast generation (relaxation compensation, fluid supression, ...)
+ - advanced contrast generation (relaxation compensation, fluid suppression, ...)
  
  If one of these steps is not handled with full care, CEST results are unreliable.
 
@@ -75,7 +73,7 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  
  2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
  
- 4. a powerful post processing is provided by OLEA medical.
+ 4. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
  
  5. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
