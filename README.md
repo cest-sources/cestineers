@@ -11,24 +11,23 @@ The purpose if this repository is
 
 (iii) to give guidance and documentation about **CEST postprocessing** starting from output of Siemens sequences.
 
-[(iv])] - as a longh term goal - to also share data acquired with the same protocols.
 
 Please, never run any CEST sequences if you dont have all of the above: sequence, protocol and matching evaluation before you start measuring. Otherwise bad things will happen.
 
 ## (i) CEST MRI sequences ##
 
 **snapshot GRE CEST**:
- - **WIP_816b** a CEST WIP sequence from Siemens (P. Liebig) (for VE11)
- - **WIP_816c** a CEST WIP sequence from Siemens (P. Liebig) (for VE11/12)
- - **C2P_MPI04** a C2P sequence by M. Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_gre** a C2P sequence by M. Zaiss (for VE11/12)
- - **C2P_pulseqCESThybrid_minifl** a C2P sequence/code based on miniflash by M. Zaiss (for VE11/12)
+ - **WIP_816b** a CEST WIP sequence from Siemens(for VE11)
+ - **WIP_816c** a CEST WIP sequence from Siemens (for VE11/12)
+ - **C2P_MPI04** a C2P sequence by AG Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_gre** a C2P sequence by AG Zaiss (for VE11/12)
+ - **C2P_pulseqCESThybrid_minifl** a C2P sequence/code based on miniflash by AG Zaiss (for VE11/12)
 
 **snapshot EPI CEST**:
- - a C2P sequence by T. Stöcker (for VE12)
+ - a C2P sequence by AG Stöcker (for VE12)
 
 **SPACE/TSE CEST**:
- - a CEST WIP sequence from Siemens (Y.Hsu) „WIPXYZ“ (for VE11)
+ - a CEST WIP sequence from Siemens „WIPXYZ“ (for VE11)
 
 To get the sequences you need to contact Siemens and/or the corresponding developer.
    
@@ -36,9 +35,11 @@ To get the sequences you need to contact Siemens and/or the corresponding develo
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
 
 The best and standardized definition of CEST preparation is given by the Pulseq-CEST project, which is the source of all defined preparations.
+ - https://pulseq-cest.github.io/
+ - https://github.com/kherz/pulseq-cest-library/tree/master/seq-library
 
 Standard protocols are shared here as **.pdf**, **.pro** 
-The different protocols **APTw-CEST (APTw)**, **low-power multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
+The different protocols **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
 ### 3T protocols ###
  - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI
