@@ -8,7 +8,7 @@ B1rms= 0.67   (CESTUSER1GRE)
 B1rms= 0.92   (CESTUSERGRE)
 
 
-for the snapshoot readout we until now recommend the 816C snapshot readout similar as in 3T_APTw
+for the snapshot readout we, until now, recommend the 816C snapshot readout similar as in 3T_APTw
 
 https://github.com/cest-sources/cestineers/tree/master/prot/3T/snapshot_GRE
 
@@ -16,6 +16,7 @@ https://github.com/cest-sources/cestineers/tree/master/prot/3T/snapshot_GRE/WIP_
 
 https://github.com/cest-sources/cestineers/blob/master/prot/3T/snapshot_GRE/COMPARE_APTw_001_of_MPI04_816b_816c.pdf
 
+This readout has to be manually build in the 816C at 7T, and combined with the ini files.
 
 
 
