@@ -3,7 +3,7 @@ In 816c the CEST consists of the snapshot readout and an ini file that defines t
 
 The low power MIMOSA protocol (requires pTX) from the publications(https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.27762, https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4717)
 
-acquires CEST at two B1 levelsgiven by the ini files here:
+acquires CEST at two B1 levels, given by the ini files here:
 B1rms= 0.67   (CESTUSER1GRE)
 B1rms= 0.92   (CESTUSERGRE)
 
