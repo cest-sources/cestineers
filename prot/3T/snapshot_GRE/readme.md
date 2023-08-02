@@ -20,7 +20,7 @@ https://github.com/kherz/pulseq-cest-library/tree/master/seq-library/APTw_3T_001
 - Phase encoding dir: RL with 82.1% FOV phase
 - shim: standard
 - Resolution: 96-128 max
-- Bandwithd: ca 700 Hz/px
+- Bandwidth: ca 700 Hz/px
 - Reordering: spiral, spiral elongation 0.5-0.7
 
 
