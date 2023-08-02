@@ -11,7 +11,7 @@ https://github.com/kherz/pulseq-cest-library/tree/master/seq-library/APTw_3T_001
 
 ## Most important parameters to check for the snapshot-GRE readout in brain:
 - slices: 12-16 maximum
-- Grappa: 2
+- Grappa in PE: 2  or max. 3
 - Raw filter: on and medium to strong
 - Image scale factor: 4.0
 - TE/TR: minimum typically 2/4ms
