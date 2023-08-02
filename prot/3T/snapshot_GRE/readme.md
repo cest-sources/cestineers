@@ -14,7 +14,7 @@ https://github.com/kherz/pulseq-cest-library/tree/master/seq-library/APTw_3T_001
 - Grappa: 2
 - Raw filter: on and medium to strong
 - Image scale factor: 4.0
-- TE/TR: minimum typicall 2/4ms
+- TE/TR: minimum typically 2/4ms
 - Flip angle: 6-7 degree
 - Elliptical scanning on.
 - Phase encoding dir: RL with 82.1% FOV phase
