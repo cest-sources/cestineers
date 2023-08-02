@@ -9,7 +9,7 @@ https://github.com/kherz/pulseq-cest-library/tree/master/seq-library/APTw_3T_001
 
 
 
-## Most important paramters to check for the snapshot-GRE readout in brain:
+## Most important parameters to check for the snapshot-GRE readout in brain:
 - slices: 12-16 maximum
 - Grappa: 2
 - Raw filter: on and medium to strong
