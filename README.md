@@ -19,13 +19,10 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 **snapshot GRE CEST**:
  - **WIP_816b** a CEST WIP sequence from Siemens(for VE11)
  - **WIP_816c** a CEST WIP sequence from Siemens (for VE11/12)
- - **C2P_MPI04** a C2P sequence by AG Zaiss (for VE11/12)
+ - **C2P_MP04** a C2P sequence by AG Zaiss (for VE11/12 VA20/30/31/50)
 
 **snapshot EPI CEST**:
  - a C2P sequence by AG Stöcker (for VE12)
-
-**SPACE/TSE CEST**:
- - a CEST WIP sequence from Siemens „WIPXYZ“ (for VE11)
 
 To get the sequences you need to contact Siemens and/or the corresponding developer.
    
@@ -44,14 +41,12 @@ The different protocols **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (MP)**, an
  - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw, lowB1-MP, WASABI
  - **[WIP_816c](prot/3T/snapshot_GRE/)**: APTw
  - **[C2P_dzne_EPI3D](prot/3T/snapshot_EPI3D/)**: lowB1-MP
- - **WIP_SPACE**: - no protocols yet
 
 ### 7T protocols ###
  - **[C2P_MPI04](/prot/7T/snapshot_GRE/)**:lowB1-MP
  - **WIP_816b**: - no protocols yet
  - **WIP_816c**: - no protocols yet
  - **[C2P_dzne_EPI3D](prot/7T/snapshot_EPI3D/)**: lowB1-MP
- - **WIP_SPACE/TSE**: - no protocols yet
 
 ## (iii) CEST post processing ##
 The important evaluation steps for CEST are:
