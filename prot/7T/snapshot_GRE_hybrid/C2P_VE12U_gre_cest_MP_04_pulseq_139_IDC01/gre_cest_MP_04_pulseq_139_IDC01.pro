@@ -1059,7 +1059,7 @@
 }
 ### ASCCONV BEGIN object=MrProtDataImpl@MrProtocolData version=51280000 converter=%MEASCONST%/ConverterList/Prot_Converter.txt ###
 ulVersion	 = 	51280000
-tSequenceFileName	 = 	"%CustomerSeq%\pulseqcest_gre_hybrid_v_ptx"
+tSequenceFileName	 = 	"%CustomerSeq%\gre_cest_MP_04_pulseq_139_IDC01"
 tProtocolName	 = 	"Initialized by sequence"
 tdefaultEVAProt	 = 	"%SiemensEvaDefProt%\Breast\Breast.evp"
 lScanRegionPosTra	 = 	0.0
@@ -1954,4 +1954,3 @@ asDynmicAdjustVolumes.__attribute__.size	 = 	0
 sSliceAcceleration.lMultiBandFactor	 = 	1
 sSliceAcceleration.lFOVShiftFactor	 = 	1
 ### ASCCONV END ###
-ND ###

@@ -1,14 +1,14 @@
 # Place binaries on the scanner
 
-* IceProgramDeepCEST_v_ptx.dll
-* IceProgramDeepCEST_v_ptx.evp
-* IceProgramDeepCEST_v_ptx.so
-* IceProgramDeepCEST_v_ptx.ipr
+* IceProgramDeepCEST_IDC01.dll
+* IceProgramDeepCEST_IDC01.evp
+* libIceProgramDeepCEST_IDC01.so
+* IceProgramDeepCEST_IDC01.ipr
 
 The above files go to MriCustomer\ice
 
-* libpulseqcest_gre_hybrid_v_ptx.dll
-* libpulseqcest_gre_hybrid_v_ptx.so
+* gre_cest_MP_04_pulseq_139_IDC01.dll
+* libgre_cest_MP_04_pulseq_139_IDC01.so
 
 These sequence files ("seq/filename".so and "seq/filename".dll) go to sequence folder %MEDHOME%\MriCustomer\seq
 
