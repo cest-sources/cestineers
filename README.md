@@ -1,6 +1,14 @@
 # *cestineers*
 **Resources for people doing CEST MRI on a Siemens platform**
 * * *
+
+# News
+First CESTineers Zoom meeting 
+21st February 2024,  5 pm (CET)  https://fau.zoom.us/j/94884482840
+
+Register here to receive CESTineers updates (2-4 emails per year). https://forms.gle/d2gtuLn5xvVgeAZY8 
+
+# Welcome
 Welcome to *cestineers*, a repository for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
 
 The purpose if this repository is
