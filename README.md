@@ -75,6 +75,8 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  1. some basic evaluation is provided on [www.cest-sources.org](https://www.cest-sources.org).
  
  2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
+
+ 3. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
  
  4. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
  
