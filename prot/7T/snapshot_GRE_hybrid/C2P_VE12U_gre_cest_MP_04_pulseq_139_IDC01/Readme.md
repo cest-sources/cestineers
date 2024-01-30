@@ -47,12 +47,23 @@ The .seq filename should match the .ini and .nnet filenames i.e all three of the
 * APT
 * Amine
 * B0
-* MT
 * NOE
+* MT
 * Uncertainty
 * B1 CP
 * B1 EP
 * B1 MIMOSA
 
+### b1 maps scaling for dicom
 
+* scaling factor 2000.
+* divide B1 CP, B1 EP, and B1 MIMOSA with 2000.0 to obtain unscaled B1 maps
+
+### NN contrast scaling for dicom
+* scale [20000, 20000,  1000, 10000,  5000]
+* bias [   0.,    0.,    2048.,    0., 0.]
+* To obtain unscaled maps use following formulation
+(cest_maps_s/scale) - bias_b0
+* scaling factor for uncertainty dicom 2000.0
+* divide uncertainty by 2000.0 to obtain unscaled uncertainty
 
