@@ -4,7 +4,7 @@
 
 # News
 First CESTineers Zoom meeting 
-21st February 2024,  5 pm (CET)  https://fau.zoom.us/j/94884482840
+21st February 2024, 4:30 pm (CET)  https://fau.zoom.us/j/94884482840
 
 Register here to receive CESTineers updates (2-4 emails per year). https://forms.gle/d2gtuLn5xvVgeAZY8 
 
