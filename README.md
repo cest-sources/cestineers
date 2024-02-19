@@ -75,12 +75,14 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  1. some basic evaluation is provided on [www.cest-sources.org](https://www.cest-sources.org).
  
  2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
+    (https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
+ 3.  CEST data processing tool of the John Hopkins group http://godzilla.kennedykrieger.org/CEST/  
 
- 3. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
+ 4. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
  
- 4. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
+ 5. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
  
- 5. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
+ 6. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
  If this is not given, it is recommended to wait for new releases of more advanced sequences.
  
