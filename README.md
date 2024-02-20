@@ -32,7 +32,7 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
 **snapshot EPI CEST**:
  - a C2P sequence by AG Stöcker (for VE12)
 
-To get the sequences you need to contact Siemens and/or the corresponding developer.
+To get the sequences you need to contact Siemens and/or the corresponding developer. Some Sequences are also available via teh Siemens C2P Teamplay Platform.
    
 ## (ii) CEST MRI protocols ##
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
@@ -81,8 +81,10 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  4. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
  
  5. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
+    
+ 7. Part of Pulseq-CEST are now also some simpler evaluation example scripts:  https://github.com/kherz/pulseq-cest-library/tree/master/eval-examples
  
- 6. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
+ 8. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
  This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
  If this is not given, it is recommended to wait for new releases of more advanced sequences.
  
