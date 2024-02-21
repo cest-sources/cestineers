@@ -30,9 +30,13 @@ Please, never run any CEST sequences if you dont have all of the above: sequence
  - **C2P_MP04** a C2P sequence by AG Zaiss (for VE11/12 VA20/30/31/50)
 
 **snapshot EPI CEST**:
- - a C2P sequence by AG Stöcker (for VE12)
+ - a C2P sequence by Stöcker Lab (for VE12)
 
-To get the sequences you need to contact Siemens and/or the corresponding developer. Some Sequences are also available via teh Siemens C2P Teamplay Platform.
+**TSE CEST / SPACE CEST**:
+ - a C2P sequence by
+   (for VE11, VA20, VA30, VA31)
+
+To get the sequences you need to contact Siemens and/or the corresponding developer. Some Sequences are also available via the Siemens C2P Teamplay Platform.
    
 ## (ii) CEST MRI protocols ##
 There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
@@ -45,16 +49,16 @@ Standard protocols are shared here as **.pdf**, **.pro**
 The different protocols **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
 
 ### 3T protocols ###
- - **[C2P_MPI04](prot/3T/snapshot_GRE/)**:APTw, lowB1-MP, WASABI, T1satrec
- - **[WIP_816b](prot/3T/snapshot_GRE/)**: APTw, lowB1-MP, WASABI
- - **[WIP_816c](prot/3T/snapshot_GRE/)**: APTw
- - **[C2P_dzne_EPI3D](prot/3T/snapshot_EPI3D/)**: lowB1-MP
+
+APTw, lowB1-MP, WASABI, T1satrec
+
+**[3T Protocol folder](prot/3T/)**
 
 ### 7T protocols ###
- - **[C2P_MPI04](/prot/7T/snapshot_GRE/)**:lowB1-MP
- - **WIP_816b**: - no protocols yet
- - **WIP_816c**: - no protocols yet
- - **[C2P_dzne_EPI3D](prot/7T/snapshot_EPI3D/)**: lowB1-MP
+
+lowB1-MP
+
+**[7T protocol folder](/prot/7T)**
 
 ## (iii) CEST post processing ##
 The important evaluation steps for CEST are:
@@ -95,8 +99,18 @@ The snapshot GRE CEST APTw protocol is described here: https://arxiv.org/abs/220
 
    
 # About
-*cestineers* is an initiative by Moritz Zaiss (FAU) and Kai Herz (MPI Tübingen), and open for everyone to join. 
+*cestineers* is a subgroup of the ISMRM CEST study group initiated by Moritz Zaiss (FAU), and open for everyone to join. 
 
- To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
+# Contributors
+Kai Herz,
+Simon Weinmüller,
+Philipp Ehses,
+Martin Freudensprung,
+Moritz Fabian,
+Jan Schüre,
+Maria Sedykh,
+Haoran Mo
+
+To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
  
  
