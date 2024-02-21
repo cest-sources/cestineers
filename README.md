@@ -63,11 +63,19 @@ Proper post-processing is crucial for reliable CEST results. We list several too
 ## Publications and References
 - Snapshot GRE CEST APTw protocol is described [here](https://arxiv.org/abs/2207.00261).
 
-## About
-*cestineers* is an ISMRM CEST study group initiative, open for everyone interested in advancing CEST MRI research.
+## About & Contributors
+*CESTineers* is an ISMRM CEST study group initiative, open for everyone interested in advancing CEST MRI research.
 
-## Contributors
-List of contributors...
+**Contributors**
+
+Kai Herz,
+Simon Weinmüller,
+Philipp Ehses,
+Martin Freudensprung,
+Moritz Fabian,
+Jan Schüre,
+Maria Sedykh,
+Haoran Mo
 
 ### Additional Resources
 For viewing .md files on Windows, consider using [MarkPad](https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb) or Notepad++.
