@@ -11,8 +11,7 @@ Welcome to our community-driven repository, dedicated to researchers and practit
 - [CEST MRI Protocols](#cest-mri-protocols)
 - [CEST Post Processing](#cest-post-processing)
 - [Publications and References](#publications-and-references)
-- [About](#about)
-- [Contributors](#contributors)
+- [About](#about--contributors)
 
 ## News
 - **First CESTineers Zoom Meeting**: 21st February 2024, 4:30 pm (CET). [Join here https://fau.zoom.us/j/94884482840](https://fau.zoom.us/j/94884482840)
