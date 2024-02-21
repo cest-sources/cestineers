@@ -1,116 +1,73 @@
-# *cestineers*
-**Resources for people doing CEST MRI on a Siemens platform**
-* * *
+# CESTineers
 
-# News
-First CESTineers Zoom meeting 
-21st February 2024, 4:30 pm (CET)  https://fau.zoom.us/j/94884482840
+## Resources for people doing CEST MRI on a Siemens platform
 
-Register here to receive CESTineers updates (2-4 emails per year). https://forms.gle/d2gtuLn5xvVgeAZY8 
+### Welcome to CESTineers
+Welcome to our community-driven repository, dedicated to researchers and practitioners working with Chemical Exchange Saturation Transfer (CEST) MRI on Siemens platforms. Our goal is to compile solutions, including available sequences, tested protocols, and guidance on post-processing.
 
-# Welcome
-Welcome to *cestineers*, a repository for researchers who want to run CEST MRI sequences on a Siemens machine. There is no Siemens product for CEST MRI, which is why we want to present some alternative solutions here.
+### Table of Contents
+- [News](#news)
+- [CEST MRI Sequences](#cest-mri-sequences)
+- [CEST MRI Protocols](#cest-mri-protocols)
+- [CEST Post Processing](#cest-post-processing)
+- [Publications and References](#publications-and-references)
+- [About](#about)
+- [Contributors](#contributors)
 
-The purpose if this repository is
+## News
+- **First CESTineers Zoom Meeting**: 21st February 2024, 4:30 pm (CET). [Join here](https://fau.zoom.us/j/94884482840)
+- **Stay Updated**: Register [here](https://forms.gle/d2gtuLn5xvVgeAZY8) to receive CESTineers updates (2-4 emails per year).
 
-(i) to inform what **CEST MRI sequences** are available as WIP or via C2P
+## CEST MRI Sequences
+We provide information on CEST MRI sequences available as WIP (Works in Progress) or via C2P (Customer to Partner). Before using any sequence, ensure you have the sequence, protocol, and matching evaluation ready. Here's a snapshot:
 
-(ii) to share tested **CEST MRI protocols**
+### Snapshot GRE CEST
+- **WIP_816b**: For VE11 by Siemens 
+- **WIP_816c**: For VE11/12 by Siemens 
+- **C2P_MP04**: By ZaissLab, for multiple versions
 
-(iii) to give guidance and documentation about **CEST postprocessing** starting from output of Siemens sequences.
+### Snapshot EPI CEST
+- By StöckerLab, for VE12
 
+### TSE CEST / SPACE CEST
+- By various developers, for multiple versions
 
-Please, never run any CEST sequences if you dont have all of the above: sequence, protocol and matching evaluation before you start measuring. Otherwise bad things will happen.
+For access, contact Siemens or the corresponding developer. Some sequences are also available via Siemens C2P Teamplay Platform.
 
-## (i) CEST MRI sequences ##
+## CEST MRI Protocols
+We share standardized and tested CEST MRI protocols, including APTw-weighted, low-power multi-pool (MP), and more. Visit [cest-sources.org](http://cest-sources.org/doku.php?id=standard_cest_protocols) for details.
 
-**snapshot GRE CEST**:
- - **WIP_816b** a CEST WIP sequence from Siemens(for VE11)
- - **WIP_816c** a CEST WIP sequence from Siemens (for VE11/12)
- - **C2P_MP04** a C2P sequence by AG Zaiss (for VE11/12 VA20/30/31/50)
+The best and most standardized definition of CEST **preparation** is provided by the Pulseq-CEST project, which is the source of all defined preparations.
 
-**snapshot EPI CEST**:
- - a C2P sequence by Stöcker Lab (for VE12)
+- Pulseq-CEST Project: [Website](https://pulseq-cest.github.io/)
+- Sequence Library: [GitHub](https://github.com/kherz/pulseq-cest-library/tree/master/seq-library)
 
-**TSE CEST / SPACE CEST**:
- - a C2P sequence by
-   (for VE11, VA20, VA30, VA31)
+Standard protocols are shared here as **.pdf** and **.pro** files. The different protocols, such as **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (lowB1-MP)**, and **dynamicGlucoCEST/SL (DGE)**, are linked to the corresponding papers provided in the readme files.
 
-To get the sequences you need to contact Siemens and/or the corresponding developer. Some Sequences are also available via the Siemens C2P Teamplay Platform.
-   
-## (ii) CEST MRI protocols ##
-There are many CEST protocols out there. Even for APT-weighted and low-power multi-pool (MP) several protocols exist: [cest-sources.org/doku.php?id=standard_cest_protocols](http://cest-sources.org/doku.php?id=standard_cest_protocols). 
+### 3T Protocols
+- **APTw**, **lowB1-MP**, **WASABI**, **T1satrec**
+- [3T Protocol folder](prot/3T/)
 
-The best and standardized definition of CEST preparation is given by the Pulseq-CEST project, which is the source of all defined preparations.
- - https://pulseq-cest.github.io/
- - https://github.com/kherz/pulseq-cest-library/tree/master/seq-library
+### 7T Protocols
+- **lowB1-MP**
+- [7T Protocol folder](prot/7T/)
 
-Standard protocols are shared here as **.pdf**, **.pro** 
-The different protocols **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (MP)**, and **dynamicGlucoCEST/SL (DGE)** are linked to the corresponding papers given in the readme files.
+## CEST Post Processing
+Proper post-processing is crucial for reliable CEST results. We list several tools and resources for motion correction, normalization, corrections, and advanced contrast generation.
 
-### 3T protocols ###
+### Evaluation Tools
+- Basic evaluation at [cest-sources.org](https://www.cest-sources.org)
+- [MITK CEST User Manual](https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
+- John Hopkins CEST data processing tool and more.
 
-APTw, lowB1-MP, WASABI, T1satrec
+## Publications and References
+- Snapshot GRE CEST APTw protocol is described [here](https://arxiv.org/abs/2207.00261).
 
-**[3T Protocol folder](prot/3T/)**
+## About
+*cestineers* is an ISMRM CEST study group initiative, open for everyone interested in advancing CEST MRI research.
 
-### 7T protocols ###
+## Contributors
+List of contributors...
 
-lowB1-MP
-
-**[7T protocol folder](/prot/7T)**
-
-## (iii) CEST post processing ##
-The important evaluation steps for CEST are:
- - motion correction
- - normalization by unsaturated scan
- - B0 and B1 correction
- - spectral/spatial smoothing/denoising
- - contrast generation (MTRasym, Lorentzian fitting)
- - advanced contrast generation (relaxation compensation, fluid suppression, ...)
- 
- If one of these steps is not handled with full care, CEST results are unreliable.
-
-The CEST WIPs have some basic online evaluation, but only for  basic asymmetry of APTw protocols.
-C2P CEST sequences do not have online evaluation and an offline postprocessing is needed.
-
-**Available Evaluation tools:**
-
- 1. some basic evaluation is provided on [www.cest-sources.org](https://www.cest-sources.org).
- 
- 2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
-    (https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
- 3.  CEST data processing tool of the John Hopkins group http://godzilla.kennedykrieger.org/CEST/  
-
- 4. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
- 
- 5. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
-    
- 7. Part of Pulseq-CEST are now also some simpler evaluation example scripts:  https://github.com/kherz/pulseq-cest-library/tree/master/eval-examples
- 
- 8. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
- This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
- If this is not given, it is recommended to wait for new releases of more advanced sequences.
- 
-# Publications and references
-
-The snapshot GRE CEST APTw protocol is described here: https://arxiv.org/abs/2207.00261
-
-
-   
-# About
-*cestineers* is a subgroup of the ISMRM CEST study group initiated by Moritz Zaiss (FAU), and open for everyone to join. 
-
-# Contributors
-Kai Herz,
-Simon Weinmüller,
-Philipp Ehses,
-Martin Freudensprung,
-Moritz Fabian,
-Jan Schüre,
-Maria Sedykh,
-Haoran Mo
-
-To display .md files in windows, try https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb or notepad++
- 
- 
+### Additional Resources
+For viewing .md files on Windows, consider using [MarkPad](https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb) or Notepad++.
