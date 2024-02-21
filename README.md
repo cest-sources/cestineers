@@ -53,10 +53,36 @@ Standard protocols are shared here as **.pdf** and **.pro** files. The different
 ## CEST Post Processing
 Proper post-processing is crucial for reliable CEST results. We list several tools and resources for motion correction, normalization, corrections, and advanced contrast generation.
 
-### Evaluation Tools
-- Basic evaluation at [cest-sources.org](https://www.cest-sources.org)
-- [MITK CEST User Manual](https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
-- John Hopkins CEST data processing tool and more.
+The important evaluation steps for CEST are:
+ - motion correction
+ - normalization by unsaturated scan
+ - B0 and B1 correction
+ - spectral/spatial smoothing/denoising
+ - contrast generation (MTRasym, Lorentzian fitting)
+ - advanced contrast generation (relaxation compensation, fluid suppression, ...)
+ 
+ If one of these steps is not handled with full care, CEST results are unreliable.
+
+The CEST WIPs have some basic online evaluation, but only for  basic asymmetry of APTw protocols.
+C2P CEST sequences do not have online evaluation and an offline postprocessing is needed.
+
+**Available Evaluation tools:**
+
+ 1. some basic evaluation is provided on [www.cest-sources.org](https://www.cest-sources.org).
+ 
+ 2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
+    (https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
+ 3.  CEST data processing tool of the John Hopkins group http://godzilla.kennedykrieger.org/CEST/  
+
+ 4. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
+ 
+ 5. a powerful post processing is provided by OLEA medical (https://www.olea-medical.com/en/solutions/cest/)
+    
+ 7. Part of Pulseq-CEST are now also some simpler evaluation example scripts:  https://github.com/kherz/pulseq-cest-library/tree/master/eval-examples
+ 
+ 8. For researchers, a full pipeline in Matlab, from dicom to CEST, can be provided at least for some contrasts upon request from M.Zaiss.
+ This is custom written code and only recommended for advanced users, that are able and willing to adjust codes in Matlab.
+ If this is not given, it is recommended to wait for new releases of more advanced sequences
 
 ## Publications and References
 - Snapshot GRE CEST APTw protocol is described [here](https://arxiv.org/abs/2207.00261).
