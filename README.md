@@ -45,11 +45,11 @@ The best and most standardized definition of CEST **preparation** is provided by
 Standard protocols are shared here as **.pdf** and **.pro** files. The different protocols, such as **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (lowB1-MP)**, and **dynamicGlucoCEST/SL (DGE)**, are linked to the corresponding papers provided in the readme files.
 
 ### 3T Protocols
-- **APTw**, **lowB1-MP**, **WASABI**, **T1satrec**
+**APTw**, **lowB1-MP**, **WASABI**, **T1satrec**
 - [3T Protocol folder](prot/3T/)
 
 ### 7T Protocols
-- **lowB1-MP**
+**lowB1-MP**
 - [7T Protocol folder](prot/7T/)
 
 ## CEST Post Processing
