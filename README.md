@@ -39,8 +39,8 @@ We share standardized and tested CEST MRI protocols, including APTw-weighted, lo
 
 The best and most standardized definition of CEST **preparation** is provided by the Pulseq-CEST project, which is the source of all defined preparations.
 
-- Pulseq-CEST Project: [Website](https://pulseq-cest.github.io/)
-- Sequence Library: [GitHub](https://github.com/kherz/pulseq-cest-library/tree/master/seq-library)
+- [Pulseq-CEST Project](https://pulseq-cest.github.io/)
+- [Pulseq-CEST seq Library](https://github.com/kherz/pulseq-cest-library/tree/master/seq-library)
 
 Standard protocols are shared here as **.pdf** and **.pro** files. The different protocols, such as **APTw-CEST (APTw)**, **lowB1 multi-pool CEST (lowB1-MP)**, and **dynamicGlucoCEST/SL (DGE)**, are linked to the corresponding papers provided in the readme files.
 
