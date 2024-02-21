@@ -19,18 +19,17 @@ Welcome to our community-driven repository, dedicated to researchers and practit
 - **Stay Updated**: Register [here](https://forms.gle/d2gtuLn5xvVgeAZY8) to receive CESTineers updates (2-4 emails per year).
 
 ## CEST MRI Sequences
-We provide information on CEST MRI sequences available as WIP (Works in Progress) or via C2P (Customer to Partner). Before using any sequence, ensure you have the sequence, protocol, and matching evaluation ready. Here's a snapshot:
+We provide information on CEST MRI sequences available as WIP (Works in Progress) or via C2P (Customer to Partner). Before using any sequence, ensure you have the sequence, protocol, and matching evaluation ready. 
 
 ### Snapshot GRE CEST
-- **WIP_816b**: For VE11 by Siemens 
-- **WIP_816c**: For VE11/12 by Siemens 
-- **C2P_MP04**: By ZaissLab, for multiple versions
-
+- **WIP_816b**: by Siemens, for VE11 
+- **WIP_816c**: by Siemens, for VE11/12, VAx 
+- **C2P_MP04**: By Zaiss Lab, for VE11C, VE11E, XA20A, XA30A, XA31A, XA50A
 ### Snapshot EPI CEST
-- By StöckerLab, for VE12
+- By Stöcker Lab, for VE12
 
 ### TSE CEST / SPACE CEST
-- By various developers, for multiple versions
+- By Yi Zhang Lab, for VE11C, VE11E, XA20A, XA30A, XA31A
 
 For access, contact Siemens or the corresponding developer. Some sequences are also available via Siemens C2P Teamplay Platform.
 
@@ -76,6 +75,10 @@ Moritz Fabian,
 Jan Schüre,
 Maria Sedykh,
 Haoran Mo
+
+## Disclaimer
+Infos here come without any warranty. Some info is based on own experience, other info is based on "what we heard". You have to validate all information yourself.
+
 
 ### Additional Resources
 For viewing .md files on Windows, consider using [MarkPad](https://www.microsoft.com/en-us/p/markpad/9wzdncrdcfsb) or Notepad++.
