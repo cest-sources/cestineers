@@ -72,7 +72,7 @@ C2P CEST sequences do not have online evaluation and an offline postprocessing i
  
  2. a toolkit integrated in the open source toolkit [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK))
     (https://phabricator.mitk.org/w/mitk/cest/cest_user_manual/)
- 3.  CEST data processing tool of the John Hopkins group http://godzilla.kennedykrieger.org/CEST/  
+ 3.  CEST data processing tool of the John Hopkins group https://godzilla.kennedykrieger.org/CEST/  
 
  4. calf - CEST analysis software by Lorentzian fitting  [calf](https://github.com/MPR-UKD/calf)
  
