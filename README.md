@@ -15,6 +15,7 @@ Welcome to our community-driven repository, dedicated to researchers and practit
 
 ## News
 - **First CESTineers Zoom Meeting**: 21st February 2024, 4:30 pm (CET). [Recording on Youtube https://youtu.be/m0LTWLKARLI](https://youtu.be/m0LTWLKARLI)
+- **Second CESTineers Zoom Meeting**: 15st April 2026, 4:00 pm (CET). [Recording on Youtube https://youtu.be/E3QOw2DV3_0?si=dxSZkjLcaLbWpSLz](https://youtu.be/E3QOw2DV3_0?si=dxSZkjLcaLbWpSLz)
 - **Stay Updated**: Register [here](https://forms.gle/d2gtuLn5xvVgeAZY8) to receive CESTineers updates (2-4 emails per year).
 
 ## CEST MRI Sequences
